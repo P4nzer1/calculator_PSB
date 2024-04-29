@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="P4nz3r" content="width=device-width, initial-scale=1.0">
+    <title>Calculate_PSB</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="image">
+            <img src="img/PSB_logo_original_png.png" alt="">
+        </div>
+    </header>
+
+    <div class="background">
+        <div class="calculator">
+            <div class="display">
+                <input type="text" id="result" disabled>
+            </div>
+            <div class="buttons">
+                <button class="btn" onclick="clearAll()">AC</button>
+                <button class="btn" onclick="backspace()">C</button>
+                <button class="btn" onclick="insert('(')">(</button>
+                <button class="btn" onclick="insert(')')">)</button>
+                <button class="btn" onclick="copyToClipboard()">Copy</button>
+                <button class="btn" onclick="insert('1')">1</button>
+                <button class="btn" onclick="insert('2')">2</button>
+                <button class="btn" onclick="insert('3')">3</button>
+                <button class="btn" onclick="insert('/')">/</button>
+                <button class="btn" onclick="insert('*')">*</button>
+                <button class="btn" onclick="insert('4')">4</button>
+                <button class="btn" onclick="insert('5')">5</button>
+                <button class="btn" onclick="insert('6')">6</button>
+                <button class="btn" onclick="insert('-')">-</button>
+                <button class="btn" onclick="insert('+')">+</button>
+                <button class="btn" onclick="insert('7')">7</button>
+                <button class="btn" onclick="insert('8')">8</button>
+                <button class="btn" onclick="insert('9')">9</button>
+                <button class="btn" onclick="calculate()">=</button>
+                <button class="btn" onclick="insert('.')">.</button>
+                <button class="btn" onclick="insert('0')">0</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
